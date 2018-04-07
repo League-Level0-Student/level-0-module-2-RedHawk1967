@@ -8,8 +8,14 @@ import java.util.Random;
 public class IntroToRandom {
 	public static void main(String[] args) {
 		
-		int r = 0;
 		
+		Random j = new Random(); 
+		
+		
+		int r =j.nextInt(310)-222;
+		
+		
+		 
 		//3. Now make r random. 
 		//   Create an object of the Random class
 		//	 use .nextInt() to get a random number
@@ -22,7 +28,7 @@ public class IntroToRandom {
 		//6. Challenge: Limit the random number between -222 and 88
 
 		//1. Print out the value of r
-		
+		System.out.println(r);
 		//2. Run the program.  What number appears in the console?
 		//   Run it again. Is the number the same?
 	}
